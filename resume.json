@@ -8,7 +8,7 @@
     "summary": "Full Stack Developer and AWS enthusiast, specialising in Node.js/Typescript, Terraform, Serverless and GraphQL.",
     "location": {
       "countryCode": "UK",
-      "address": "United Kingdom"
+      "address": "Leeds, UK"
     },
     "profiles": [
       {
@@ -23,35 +23,79 @@
       "name": "WonderBill",
       "position": "Senior Backend Engineer",
       "startDate": "2021-06",
-      "url": "https://www.linkedin.com/company/wonderbill/"
+      "url": "https://www.linkedin.com/company/wonderbill/",
+      "highlights": [
+        "Designed architecture for generating, dismissing and removing in-app notifications on the server-side, to ensure that any changes were synced across all of a user's devices.",
+        "Modularised Serverless code in order to standardise components and ensure that appropriate alerting and monitoring is in place by default",
+        "Simplified and reduced costs of services responsible for communicating with third-party communication services (e.g. Mixpanel, Customer.io) by removing redundant transform Lambda functions and instead using EventBridge InputTransformers"
+      ],
+      "skills": [
+        "AWS (GraphQL, DynamoDB, Lambda, EventBridge)",
+        "Node.js/Typescript",
+        "PostgreSQL",
+        "Serverless",
+        "Terraform",
+        "Git"
+      ]
     },
     {
-      "name": "Chameleon Technology (UK) Ltd",
+      "name": "Chameleon Technology",
       "position": "Senior Cloud Systems Developer",
       "startDate": "2020-07",
       "endDate": "2021-06",
-      "highlights": [],
-      "summary": "- Led a team of eight programmers using Agile methodology to develop (both code and infrastructure), test, deploy and monitor the cloud system used for more than 75,000 IoT devices\n- **AWS**: Designed new functionality under a serverless event-driven architecture, primarily made up of SQS queues to communicate between Lambda functions and persisted data using DynamoDB\n- **NodeJS**: Advocated for clean codebase applying SOLID principles, avoiding duplication by extracting functionality into packages and encapsulating implementation details\n- **Testing**: Advocated for increased test coverage through unit testing using Jest, end-to-end testing using Gauge and load testing of new functionality before going live\n- **IaC**: Improved the teams’ existing infrastructure of Docker, Terraform and Bitbucket Pipelines to ensure consistent builds, tests and deployments across environments \n- Owned the development of a new app which consumes and transforms data from IoT devices, and delivers the serialized (Protobuf) data to the appropriate external Kinesis stream, assisted external partners in integrating with the app and led integration testing before Go Live\n- Led data migration and checking of 10 million row IBM DB2 database to AWS Aurora (MySQL) instance including on-the-fly transformation of data\n- Mentored colleagues through code reviews and established coding standards and best practices\n- Conducted interviews for new developers",
+      "highlights": [
+        "Led a team of eight programmers using Agile methodology to develop (both code and infrastructure), test, deploy and monitor the cloud system used for more than 75,000 IoT devices",
+        "Designed new functionality under a serverless event-driven architecture, primarily made up of SQS queues to communicate between Lambda functions and persisted data using DynamoDB",
+        "Advocated for clean codebase applying SOLID principles, avoiding duplication by extracting functionality into packages and encapsulating implementation details",
+        "Promoted increased test coverage through unit testing using Jest, end-to-end testing using Gauge and load testing of new functionality before going live",
+        "Improved the teams’ existing infrastructure of Docker, Terraform and Bitbucket Pipelines to ensure consistent builds, tests and deployments across environments ",
+        "Owned the development of a new app which consumes and transforms data from IoT devices, and delivers the serialized (Protobuf) data to the appropriate external Kinesis stream, assisted external partners in integrating with the app and led integration testing before Go Live",
+        "Led data migration and checking of 10 million row IBM DB2 database to AWS Aurora (MySQL) instance including on-the-fly transformation of data",
+        "Mentored colleagues through code reviews and established coding standards and best practices",
+        "Conducted interviews for new developers"
+      ],
       "url": "https://www.linkedin.com/company/chameleon-technology-uk-ltd/",
-      "location": "Harrogate, England, United Kingdom"
+      "location": "Harrogate, England, United Kingdom",
+      "skills": [
+        "AWS (DynamoDB, Lambda, EC2, S3)",
+        "Node.js",
+        "Jest/Gauge",
+        "Terraform",
+        "Git",
+        "Docker",
+        "Bitbucket"
+      ]
     },
     {
       "name": "TPP",
       "position": "Software Engineer",
       "startDate": "2017-09",
       "endDate": "2020-06",
-      "highlights": [],
-      "summary": "- Delivered the full development lifecycle of clinical software including one of the primary applications used by UK healthcare professionals to provide real-time access to 50 million electronic patient records\n- **Java**: Advanced proficiency in OOP design principles through designing, developing and testing front- and back- end functionality in a fast-paced collaborative environment\n- **SQL**: Regularly queried and updated one of the world’s biggest online databases (1.7 petabytes), which required a solid understanding of indexes, stored procedures and database structures and the ability to analyse execution plans in order to optimise queries on large datasets\n- **Android/Swift**: Designed and implemented mobile architecture to allow protocols defined by clinicians to be downloaded and used by patients on Android and iOS apps\n- **HTML/CSS/JS**: Improved user-input validation for a public-facing website for reporting safeguarding concerns\n- Led the development of an integration with a medical device to allow automatic transfer and filing of structured\nclinical data as JSON into medical records through HTTP protocol\n- Travelled to Qatar to meet government ministers and gather development specifications for new functionality to be\nused by the Workers’ Welfare programme for the 2022 World Cup\n- Devised and delivered recruitment events for university students which included presenting to over 200 attendees\n- Trained new developers by delivering talks on programming basics, and performing code reviews\n- Managed the assignment of developers onto project teams ensuring suitable allocation of resource and experience\n",
+      "highlights": [
+        "Delivered the full development lifecycle of clinical software including one of the primary applications used by UK healthcare professionals to provide real-time access to 50 million electronic patient records",
+        "Java: Advanced proficiency in OOP design principles through designing, developing and testing front and back end functionality in a fast-paced collaborative environment",
+        "SQL: Regularly queried and updated one of the world’s biggest online databases (1.7 petabytes), which required a solid understanding of indexes, stored procedures and database structures and the ability to analyse execution plans in order to optimise queries on large datasets",
+        "Android/Swift: Designed and implemented mobile architecture to allow protocols defined by clinicians to be downloaded and used by patients on Android and iOS apps",
+        "HTML/CSS/JS: Improved user-input validation for a public-facing website for reporting safeguarding concerns",
+        "Led the development of an integration with a medical device to allow automatic transfer and filing of structured clinical data as JSON into medical records through HTTP protocol",
+        "Travelled to Qatar to meet government ministers and gather development specifications for new functionality to be used by the Workers’ Welfare programme for the 2022 World Cup",
+        "Devised and delivered recruitment events for university students which included presenting to over 200 attendees",
+        "Trained new developers by delivering talks on programming basics, and performing code reviews",
+        "Managed the assignment of developers onto project teams ensuring suitable allocation of resource and experience"
+      ],
       "url": "https://www.linkedin.com/company/the-phoenix-partnership-tpp-/",
-      "location": "Leeds, England, United Kingdom"
+      "location": "Leeds, England, United Kingdom",
+      "skills": ["Java", "SQL", "Android/Swift", "HTML/CSS/JS"]
     },
     {
       "name": "Brathay Trust",
       "position": "Research Intern",
       "startDate": "2016-08",
       "endDate": "2016-08",
-      "highlights": [],
-      "summary": "- Developed an improved and simplified process for data collection, entry and evaluation, to standardise and enhance the quality of data\n- Researched and implemented digital data collection techniques, creating a system which automatically generates bespoke online surveys from an online spreadsheet",
+      "highlights": [
+        "Developed an improved and simplified process for data collection, entry and evaluation, to standardise and enhance the quality of data",
+        "Researched and implemented digital data collection techniques, creating a system which automatically generates bespoke online surveys from an online spreadsheet"
+      ],
       "url": "https://www.linkedin.com/company/brathay/",
       "location": "Cumbria, United Kingdom"
     },
@@ -60,8 +104,11 @@
       "position": "PR and Communications Intern",
       "startDate": "2016-06",
       "endDate": "2016-07",
-      "highlights": [],
-      "summary": "- Wrote press releases and sold in to media; one featured in a newspaper double-page spread\n- Conducted phone interviews with families in order to write stories to be published in magazines and online\n- Secured Cambridge TV coverage by telephone of ‘Family Fun Day’ fundraising event",
+      "highlights": [
+        "Wrote press releases and sold in to media; one featured in a newspaper double-page spread",
+        "Conducted phone interviews with families in order to write stories to be published in magazines and online",
+        "Secured Cambridge TV coverage by telephone of ‘Family Fun Day’ fundraising event"
+      ],
       "url": "https://www.linkedin.com/company/the-sick-children's-trust/"
     },
     {
@@ -69,8 +116,12 @@
       "position": "Organic Chemistry Research Intern",
       "startDate": "2015-06",
       "endDate": "2015-08",
-      "highlights": [],
-      "summary": "- Researched a new synthetic methodology for synthesising heterocyclic compounds based on a\nfuran dearomatisation strategy, from which a paper is expected to be published next year\n- Delivered literature seminars on methods in organic synthesis\n- Tackled geological problems of Pre-Urals during a two-week International Summer Seminar",
+      "highlights": [
+        "Researched a new synthetic methodology for synthesising heterocyclic compounds based on a furan dearomatisation strategy, from which a paper is expected to be published next year",
+        "Delivered literature seminars on methods in organic synthesis",
+        "Tackled geological problems of Pre-Urals during a two-week International Summer Seminar"
+      ],
+      "url": "https://www.linkedin.com/school/%D0%BF%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82-%D0%BF%D0%B3%D1%83-",
       "location": "Perm, Russia"
     }
   ],
@@ -80,16 +131,23 @@
       "position": "Publicity Officer and Tutor",
       "startDate": "2016",
       "endDate": "2017",
-      "summary": "- Independently developed website to publicise tutor group information, editable by non-technical team members\n- Managed social media presence and mailing list of over 750 people \n- Tutored GCSE science weekly to 5 students with student-run volunteering scheme to inspire academic confidence, interest and attainment",
-      "highlights": []
+      "highlights": [
+        "Independently developed website to publicise tutor group information, editable by non-technical team members",
+        "Managed social media presence and mailing list of over 750 people ",
+        "Tutored GCSE science weekly to 5 students with student-run volunteering scheme to inspire academic confidence, interest and attainment"
+      ]
     },
     {
       "organization": "Aid First",
       "position": "Co-founder",
       "startDate": "2011-09-30",
       "endDate": "2013-07-31",
-      "summary": "- Organised training from Red Cross to allow team to deliver first aid workshops to over 100 people.\n- Delivered presentation to 700 students to encourage attendance at workshops.\n- Designed and sold wristbands to raise £300 for training and increase awareness of charity.\n- Earned Diana Award for outstanding contribution to community",
-      "highlights": []
+      "highlights": [
+        "Organised training from Red Cross to allow team to deliver first aid workshops to over 100 people.",
+        "Delivered presentation to 700 students to encourage attendance at workshops.",
+        "Designed and sold wristbands to raise £300 for training and increase awareness of charity.",
+        "Earned Diana Award for outstanding contribution to community"
+      ]
     }
   ],
   "education": [
@@ -100,16 +158,24 @@
       "startDate": "2013",
       "endDate": "2017",
       "score": "First Class",
-      "courses": []
+      "courses": [
+        "Year 1: 80% | Year 2: 76% | Year 3: 74% | Year 4: 75%",
+        "Awarded scholarships for academic excellence by both department and college each year",
+        "Undertook two research projects both of which led to co-authoring published paper"
+      ],
+      "url": "https://www.linkedin.com/school/oxforduni/"
     },
     {
       "institution": "King Edward VI Camp Hill Boys, Birmingham",
-      "area": "A-Level: A*: Biology, Chemistry, Mathematics, Physics; A: General Studies",
+      "area": "",
       "studyType": "",
       "startDate": "2006",
       "endDate": "2013",
-      "score": "GCSE: 7 A*, 4 A",
-      "courses": []
+      "score": "",
+      "courses": [
+        "A-Level: 4 A* (Biology, Chemistry, Mathematics, Physics), 1 A (General Studies)",
+        "GCSE: 7 A*, 4 A"
+      ]
     }
   ],
   "awards": [],

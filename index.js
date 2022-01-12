@@ -1,65 +1,44 @@
-const
-  fs = require('fs'),
-  handlebars = require('handlebars'),
-  handlebarsWax = require('handlebars-wax'),
-  addressFormat = require('address-format'),
-  moment = require('moment'),
-  Swag = require('swag');
+const fs = require("fs");
+const handlebars = require("handlebars");
+const handlebarsWax = require("handlebars-wax");
 
-Swag.registerHelpers(handlebars);
-
-handlebars.registerHelper({
-  removeProtocol: function (url) {
-    return url.replace(/.*?:\/\//g, '');
-  },
-
-  concat: function () {
-    let res = '';
-
-    for (let arg in arguments) {
-      if (typeof arguments[arg] !== 'object') {
-        res += arguments[arg];
-      }
-    }
-
-    return res;
-  },
-
-  formatAddress: function (address, city, region, postalCode, countryCode) {
-    let addressList = addressFormat({
-      address: address,
-      city: city,
-      subdivision: region,
-      postalCode: postalCode,
-      countryCode: countryCode
-    });
-
-
-    return addressList.join('<br/>');
-  },
-
-  formatDate: function (date) {
-    return moment(date).format('MM/YYYY');
-  }
-});
-
-
-function render(resume) {
-  let dir = __dirname + '/public',
-    css = fs.readFileSync(dir + '/styles/main.css', 'utf-8'),
-    resumeTemplate = fs.readFileSync(dir + '/views/resume.hbs', 'utf-8');
-
-  let Handlebars = handlebarsWax(handlebars);
-
-  Handlebars.partials(dir + '/views/partials/**/*.{hbs,js}');
-  Handlebars.partials(dir + '/views/components/**/*.{hbs,js}');
-
-  return Handlebars.compile(resumeTemplate)({
-    css: css,
-    resume: resume
-  });
+function formatDate(date) {
+  return date.length === 4
+    ? date
+    : new Date(date).toLocaleDateString("en-US", {
+        month: "short",
+        year: "numeric",
+      });
 }
 
-module.exports = {
-  render: render
-};
+function removeProtocol(url) {
+  return url.replace(/.*?:\/\/www\./g, "");
+}
+
+function concat() {
+  return Object.values(arguments)
+    .filter((item) => typeof item === "string")
+    .join("");
+}
+
+function concatAsList() {
+  return Object.values(arguments[0])
+    .filter((item) => typeof item === "string")
+    .join(", ");
+}
+
+function render(resume) {
+  const dir = `${__dirname}/public`;
+  var css = fs.readFileSync(`${dir}/styles/main.css`, "utf-8");
+  const resumeTemplate = fs.readFileSync(`${dir}/views/resume.hbs`, "utf-8");
+
+  const wax = handlebarsWax(handlebars)
+    .partials(`${dir}/views/partials/**/*.{hbs,js}`)
+    .partials(`${dir}/views/components/**/*.{hbs,js}`);
+
+  return wax.compile(resumeTemplate)({ css, resume });
+}
+
+handlebars.registerHelper({ formatDate, removeProtocol, concat, concatAsList });
+
+module.exports = { render };

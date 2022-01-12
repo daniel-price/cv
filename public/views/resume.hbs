@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-  <title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>{{#resume.basics}}{{name}} CV{{/resume.basics}}</title>
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="shortcut icon" type="image/png" href="favicon.png?">
   <style>
     {{{css}}}
   </style>
@@ -13,26 +14,11 @@
 
 <body>
   <main id="resume" class="page">
-    {{> resume-header}}
-    {{> about }}
+    {{> header}}
     <div class="resume-content">
-
-{{!--
-      <aside class="left-column">
-        {{> summary}}
-        {{> skills }}
-        {{> languages }}
-        {{> interests }}
-      </aside>
---}}
-
       <div class="right-column">
         {{> education }}
         {{> work }}
-        {{> volunteer }}
-        {{> awards }}
-        {{> publications }}
-        {{> references }}
       </div>
     </div>
   </main>

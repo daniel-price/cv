@@ -1,41 +1,28 @@
 /*----- Colors -----*/
 
-$gray-darkest           : #333;
-$gray-darker            : #666;
-$gray-dark              : #999;
-$gray                   : #ccc;
-$gray-light             : #ddd;
-$gray-lighter           : #eee;
-$gray-lightest          : #f8f8f8;
+$gray-dark: #999;
+$gray-lightest: #f8f8f8;
 
-$slate-gray             : #39424B;
-$slate-green            : #56817A;
+$slate-gray: #39424b;
+$slate-green: #56817a;
 
-$primary-color          : $slate-green;
-$secondary-color        : $slate-gray;
+$primary-color: $slate-green;
+$secondary-color: $slate-gray;
 
-$link-color             : #2895F1;
+$link-color: #2895f1;
 
 /*----- Fonts -----*/
 
-$primary-font               : 'Lato', Helvetica, Arial, sans-serif;
-$secondary-font             : 'Josefin Sans', Helvetica, Arial, sans-serif;
+$primary-font: "Lato", Helvetica, Arial, sans-serif;
+$secondary-font: "Josefin Sans", Helvetica, Arial, sans-serif;
 
 /*----- Dimensions and sizes -----*/
 
-$print-width            : 21cm;
-$print-height           : 29.7cm;
-$page-width             : 612px;
-$page-height            : 792px;
+$page-width: 612px;
+$page-height: 792px;
 
-$mobile-width           : 435px;
-$tablet-width           : 768px;
-$laptop-width           : 992px;
-$desktop-width          : 1200px;
-$retina-width           : 1920px;
-
-$font-unit              : 4px;
-$profile-pic-size       : 52px;
-$aside-width            : 160px;
-$aside-margin           : 20px;
-$pad-unit               : 5px;
+$font-unit: 4px;
+$profile-pic-size: 52px;
+$aside-width: 160px;
+$aside-margin: 20px;
+$pad-unit: 5px;
