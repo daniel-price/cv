@@ -5,7 +5,7 @@
     "email": "danprice17@gmail.com",
     "phone": "07503097649",
     "url": "https://www.github.com/daniel-price",
-    "summary": "Full Stack Developer and AWS enthusiast, specialising in Node.js/Typescript, Terraform, Serverless and GraphQL.",
+    "summary2": "Senior Backend Developer with a passion for solving interesting problems with elegant solutions. Happiest developing in AWS using Node.js/Typescript, Serverless and Terraform but always looking to learn something new. Currently looking for my next opportunity.",
     "location": {
       "countryCode": "UK",
       "address": "Leeds, UK"
@@ -29,7 +29,7 @@
         "Modularised Serverless code in order to standardise components and guarantee that appropriate alerting and monitoring is in place by default.",
         "Simplified and reduced costs of services responsible for communicating with third-party communication services (e.g. Mixpanel, Customer.io) by removing redundant transform Lambda functions and instead using EventBridge InputTransformers.",
         "Secured sensitive user data by encrypting DynamoDB tables with KMS keys restricted to specific execution roles. Permissions were granted to developers in sub-production environments in order to facilitate debugging.",
-        "Ensured user financial data was never more than six hours out of date by implementing a Step Function to request Bud refresh their data and automatically handle any consent issues.",
+        "Ensured user financial data was never more than six hours out of date by implementing a Step Function to refresh data for a user and automatically handle any consent issues.",
         "Conducted sprint standups, storymapping sessions and user interviews."
       ],
       "skills": [
@@ -76,10 +76,10 @@
       "endDate": "2020-06",
       "highlights": [
         "Delivered the full development lifecycle of clinical software including one of the primary applications used by UK healthcare professionals to provide real-time access to 50 million electronic patient records.",
-        "Java: Advanced proficiency in OOP design principles through designing, developing and testing front and back end functionality in a fast-paced collaborative environment.",
-        "SQL: Regularly queried and updated one of the world’s biggest online databases (1.7 petabytes), which required a solid understanding of indexes, stored procedures and database structures and the ability to analyse execution plans in order to optimise queries on large datasets.",
-        "Android/Swift: Designed and implemented mobile architecture to allow protocols defined by clinicians to be downloaded by patients on Android and iOS apps.",
-        "HTML/CSS/JS: Improved user-input validation for a public-facing website for reporting safeguarding concerns.",
+        "Advanced proficiency in Java OOP design principles through designing, developing and testing front and back end functionality in a fast-paced collaborative environment.",
+        "Regularly queried and updated one of the world’s biggest online SQL databases (1.7 petabytes), which required a solid understanding of indexes, stored procedures and database structures and the ability to analyse execution plans in order to optimise queries on large datasets.",
+        "Designed and implemented mobile architecture to allow protocols defined by clinicians to be downloaded by patients on Android and iOS apps.",
+        "Improved user-input validation for a public-facing website for reporting safeguarding concerns.",
         "Managed the development of an integration with a medical device to allow automatic transfer and filing of structured clinical data as JSON into medical records through HTTP protocol.",
         "Travelled to Qatar to meet government ministers and gather development specifications for new functionality for the Workers’ Welfare programme for the 2022 World Cup.",
         "Devised and delivered recruitment events for university students which included presenting to over 200 attendees.",
@@ -88,7 +88,7 @@
       ],
       "url": "https://www.linkedin.com/company/the-phoenix-partnership-tpp-/",
       "location": "Leeds, England, United Kingdom",
-      "skills": ["Android/Swift", "HTML/CSS/JS", "Java", "SQL"]
+      "skills": ["Java", "SQL", "Web development"]
     },
     {
       "name": "Brathay Trust",
