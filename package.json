@@ -2,7 +2,7 @@
   "name": "CV",
   "license": "MIT",
   "scripts": {
-    "export": "npx gulp && npx resume export docs/index.html --format html --theme .",
+    "export": "node standardise.js && npx gulp && npx resume export docs/index.html --format html --theme .",
     "prepare": "husky install"
   },
   "devDependencies": {
