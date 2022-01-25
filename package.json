@@ -7,8 +7,8 @@
   },
   "devDependencies": {
     "del": "^6.0.0",
-    "eslint": "^8.6.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
     "gulp": "^4.0.2",
     "gulp-cssimport": "^7.0.0",
     "gulp-csso": "^4.0.1",
@@ -17,18 +17,18 @@
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^5.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.1.7",
-    "prettier": "^2.5.1",
-    "sass": "^1.47.0"
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.4"
   },
   "dependencies": {
     "handlebars": "^4.7.7",
     "handlebars-wax": "^6.1.0",
-    "resume-cli": "^3.0.5"
+    "resume-cli": "^3.0.7"
   },
   "lint-staged": {
-    "*.{js}": "eslint --cache --fix",
+    "*.js": "eslint --cache --fix",
     "*.{js,json,scss,hbs}": "prettier --write"
   }
 }

@@ -20,9 +20,20 @@
   },
   "work": [
     {
+      "name": "Dentally",
+      "position": "Senior Software Engineer",
+      "startDate": "2022-03",
+      "endDate": "",
+      "url": "https://www.linkedin.com/company/dentally",
+      "highlights": [],
+      "skills": [],
+      "description": "TODO - One line summary for each job"
+    },
+    {
       "name": "WonderBill",
       "position": "Senior Backend Engineer",
       "startDate": "2021-06",
+      "endDate": "2022-02",
       "url": "https://www.linkedin.com/company/wonderbill/",
       "highlights": [
         "Designed architecture for generating, dismissing and removing in-app notifications on the server-side, enabling any changes to be synced across multiple devices.",
